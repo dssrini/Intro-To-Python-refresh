@@ -5,13 +5,13 @@ students = {
     "Rachel" : 13,
     "Emily" : 15
 }
-print students
-print students["Bob"]
-print students["Rachel"]
+print (students)
+print (students["Bob"])
+print (students["Rachel"])
 
 students["Rachel"] = 20
-print students["Rachel"]
+print (students["Rachel"])
 
 del students["Emily"]
-print students
-print len(students)
+print (students)
+print (len(students))
